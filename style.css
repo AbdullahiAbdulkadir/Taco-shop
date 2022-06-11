@@ -1,0 +1,58 @@
+html {
+  font-size: 22px;
+  background-image: url(Taco2.jpg);
+}
+
+div {
+  background-color: lightgray;
+  width: 100vh;
+  border: 15px solid green;
+  padding: 70px;
+  margin: 40px;
+}
+
+th,
+td,
+caption {
+  border: 1px solid #333;
+  font-family: "Courier New", Courier, monospace;
+  border-collapse: separate;
+  padding: 0.5rem;
+}
+
+/* css selectors */
+/* . # html, */
+p {
+  color: red;
+}
+
+/* class selector */
+/* classes are general, you can use same class name multiple times on the same page */
+
+.green {
+  color: green;
+}
+
+.yellow {
+  color: yellow;
+}
+.blue {
+  color: blue;
+}
+.pink {
+  color: pink;
+}
+
+.t-footer {
+  color: black;
+}
+
+/* id selector ==>> # */
+/* ID should be always uniques, you should use one unique id on one page */
+
+/* Go through all css selectors in detail on w3school */
+/* css rules */
+/* css properties ===>> they are countless */
+/* css values */
+
+/* Above are heart and core of css */

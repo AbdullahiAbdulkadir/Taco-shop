@@ -5,59 +5,140 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <h1>Welcome to the little Taco Shop</h1>
-      <nav>
-        <ul>
-          <li><a href="#about">About LTS</a></li>
-          <li><a href="#menu">Our menu</a></li>
-          <li><a href="hour.html">Store hours</a></li>
-          <li><a href="contact.html">Contact us</a></li>
-        </ul>
-      </nav>
-      <figure>
-        <img
-          src="img/drinks-food1.png"
-          alt="food-drinks"
-          title="We love tacos"
-          width="400"
-          height="300"
-        />
-        <figcaption>Tacos and DRINKS</figcaption>
-      </figure>
-    </header>
-    <hr />
-    <main>
-      <article id="About">
-        <h2>About <abbr title="The Little Taco Shop">LTS</abbr></h2>
-        <p>
-          <abbr title="The little taco shop">LTS</abbr> was founded in
-          <time datetime="2022">2022</time> Our shop was built from a
-          <strong> love of tacos </strong> We hope our shop adds a unique and
-          interesting place to our little town.
-        </p>
-        <aside>
-          <h3>Taco trivia</h3>
-          <details>
-            <summary>When did tacos first appear in the United States</summary>
-            <p>
-              Jeffrey M. Pilcher, taco historian and professor of history at the
-              University of Minnesota, says the earliest mention of tacos in the
-              United States are in a newspaper from (Source:
-              <cite
-                ><a
-                  href="https://www.smithsonianmag.com/arts-culture/where-did-the-taco-come-from-81228162/"
-                  target="_blank"
-                  >Smithsonian Magazine</a
-                ></cite
-              >)
-            </p>
-          </details>
-        </aside>
-      </article>
-    </main>
+    <div>
+      <header>
+        <h1>Welcome to the little Taco Shop</h1>
+        <nav>
+          <ul>
+            <li><a href="#about">About LTS</a></li>
+            <li><a href="#menu">Our menu</a></li>
+            <li><a href="hour.html">Store hours</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+          </ul>
+        </nav>
+        <figure>
+          <img
+            src="Taco.jpg"
+            alt="food-drinks"
+            title="We love tacos"
+            width="400"
+            height="300"
+          />
+          <figcaption>Tacos and DRINKS</figcaption>
+        </figure>
+      </header>
+      <hr />
+      <main>
+        <article id="About">
+          <h2>About <abbr title="The Little Taco Shop">LTS</abbr></h2>
+          <p>
+            <abbr title="The little taco shop">LTS</abbr> was founded in
+            <time datetime="2022">2022</time> Our shop was built from a
+            <strong> love of tacos </strong> We hope our shop adds a unique and
+            interesting place to our little town.
+          </p>
+          <aside>
+            <h3>Taco trivia</h3>
+            <details>
+              <summary>
+                When did tacos first appear in the United States
+              </summary>
+              <p>
+                Jeffrey M. Pilcher, taco historian and professor of history at
+                the University of Minnesota, says the earliest mention of tacos
+                in the United States are in a newspaper from (Source:
+                <cite
+                  ><a
+                    href="https://www.smithsonianmag.com/arts-culture/where-did-the-taco-come-from-81228162/"
+                    target="_blank"
+                    >Smithsonian Magazine</a
+                  ></cite
+                >)
+              </p>
+            </details>
+          </aside>
+        </article>
+        <hr />
+        <article id="Menu">
+          <h2>Our menu</h2>
+          <table>
+            <caption>
+              Our tacos
+            </caption>
+            <thead>
+              <tr>
+                <th>Tacos</th>
+                <th scope="col">Qty</th>
+                <th scope="col">Price</th>
+              </tr>
+            </thead>
+            <tbody id="t-body">
+              <tr>
+                <th scope="row" rowspan="3">Crunchy</th>
+                <th>1</th>
+                <th>$1.50</th>
+              </tr>
+              <tr>
+                <th>1</th>
+                <th>$1.50</th>
+              </tr>
+              <tr>
+                <th>1</th>
+                <th>$1.50</th>
+              </tr>
+              <tr>
+                <th scope="row" rowspan="3">Crunchy</th>
+                <th>1</th>
+                <th>$1.50</th>
+              </tr>
+              <tr>
+                <th>1</th>
+                <th>$1.50</th>
+              </tr>
+              <tr>
+                <th>1</th>
+                <th>$1.50</th>
+              </tr>
+            </tbody>
+            <tfoot class="t-footer">
+              <tr>
+                <td colspan="3">Chips and Salsa $2</td>
+              </tr>
+            </tfoot>
+          </table>
+          <br />
+          <p>
+            <a href="#">back to top</a>
+          </p>
+        </article>
+      </main>
+      <p id="t-somethingelse">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, eum!
+      </p>
+      <p class="green">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, eum!
+      </p>
+      <p class="yellow">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, eum!
+      </p>
+      <p class="blue">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, eum!
+      </p>
+      <p class="pink">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, eum!
+      </p>
+      <p class="green">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, eum!
+      </p>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, eum!
+      </p>
+      <p class="green">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, eum!
+      </p>
+    </div>
   </body>
 </html>
